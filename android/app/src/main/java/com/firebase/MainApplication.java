@@ -30,7 +30,7 @@ public class MainApplication extends Application implements ReactApplication {
           List<ReactPackage> packages = new PackageList(this).getPackages();
           // Packages that cannot be autolinked yet can be added manually here, for example:
           // packages.add(new MyReactNativePackage());
-          packages.add(new RNSailthruMobilePackage(getApplicationContext(), "545768c10b87487d2e4d84bf07287e86f68c1f24"));
+          packages.add(new RNSailthruMobilePackage(getApplicationContext(), "fa89ad657fd3e6002082467b97445b9b7f04d571"));
           packages.add(new SailThruPackage());
           return packages;
         }

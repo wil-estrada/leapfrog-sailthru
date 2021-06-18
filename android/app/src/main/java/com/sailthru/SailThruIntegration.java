@@ -46,7 +46,7 @@ public class SailThruIntegration extends ReactContextBaseJavaModule {
         config.setDefaultNotificationChannel(channel);
         SailthruMobile sailthruMobile = new SailthruMobile();
         sailthruMobile.setNotificationConfig(config);
-        sailthruMobile.startEngine(getReactApplicationContext(), "545768c10b87487d2e4d84bf07287e86f68c1f24");
+        sailthruMobile.startEngine(getReactApplicationContext(), "fa89ad657fd3e6002082467b97445b9b7f04d571");
         sailthruMobile.addNotificationTappedListener(new MyNotificationTappedListener());
         sailthruMobile.addNotificationReceivedListener(new MyNotificationReceivedListener());
     }
